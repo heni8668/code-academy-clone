@@ -1,0 +1,38 @@
+.banner {
+    background-image: url('../../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    height: 500px;
+    width: 100%;
+}
+
+.banner h2 {
+    color: white;
+    margin-left: 30px;
+    font-size: bold;
+    font: 3em sans-serif;
+    font-weight: 900;
+}
+
+.banner h3 {
+    color: white;
+    font-size: bold;
+    margin-left: 30px;
+    font-weight: 700;
+    font: 2em san-derif;
+}
+
+.banner span {
+    color: green;
+}
+.banner .gray {
+    color: gray;
+}
+
+.banner p {
+    color: lightgreen;
+    font: 4em san-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}

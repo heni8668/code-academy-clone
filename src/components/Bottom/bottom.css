@@ -1,0 +1,112 @@
+.bottom-container {
+    background-color: #fff;
+    display: flex;
+   
+    
+}
+.bottom-container img {
+    width: 30%;
+    
+}
+.element  {
+    background-color: rgb(245, 245, 245);
+}
+.element h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.element h1 {
+    font-size: 2.75rem;
+    font-weight: 800;
+    color: #aac86b;
+}
+.element p {
+    padding-left: 10px;
+    font-size: 20px;
+    color: gray;
+}
+ .element .bottom-grid {
+    display: flex;
+    
+}
+ .element .bottom-grid .b-grid1 {
+    width: 40%;
+    background-color: #fff;
+    margin-right: 40px;
+    margin-left: 30px;
+    
+}
+ .element .bottom-grid .b-grid2 {
+    width: 40%;
+    background-color: #fff;
+   
+    
+}
+.bottom-grid {
+    margin-bottom: 60px;
+}
+.bottom-grid p {
+    color: lightgray;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.bottom-grid .b-grid1 h1{
+    font-size: 40px;
+    color: #aac86b;
+    font-weight: 800;
+    padding-left: 30px;
+}
+.bottom-grid .b-grid1 {
+    padding: 10px;
+}
+.bottom-grid .b-grid2 {
+    padding: 10px;
+}
+.bottom-grid .b-grid1 span {
+    padding-left: 20px;
+    font-size: 20px;
+    
+    
+}
+
+.bottom-grid .b-grid2 h1{
+    font-size: 40px;
+    color: #aac86b;
+    font-weight: 800;
+    padding-left: 30px;
+}
+.bottom-grid .b-grid2 span {
+    padding-left: 20px;
+    font-size: 20px;
+   
+}
+
+.b-grid1 .b-grid2 {
+    padding-bottom: 30px;
+}
+
+.b-link1 a {
+    font-size: 20px;
+    font-weight: 800;
+    color: #aac86b;
+    text-decoration: none;
+    top: 50px;
+   
+}
+.b-link1 a svg {
+    margin-left: 20px;
+}
+.b-link2 a {
+    font-size: 20px;
+    font-weight: 800;
+    color: #aac86b;
+    text-decoration: none;
+    top: 50px;
+   
+}
+.b-link2 a svg {
+    margin-left: 20px;
+}

@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/Banner/Banner';
+import Bottom from './components/Bottom/Bottom';
+import Cources from './components/Courses/Cources';
+import Footer from './components/Footer/Footer';
+import FooterTop from './components/FooterTop/FooterTop';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import StemCourse from './components/StemCourses/StemCourse';
+// import StemCources from './components/StemCourses/StemCources';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Banner/>
+    <Main/>
+    <Cources />
+    {/* <StemCources /> */}
+    <StemCourse />
+    <Bottom />
+    <FooterTop />
+    <Footer />
+   
+    
+    
+    </>
   );
 }
 

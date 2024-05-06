@@ -1,0 +1,100 @@
+.stem-cource-container {
+    background: white;
+    
+}
+.container {
+    background-color: lightgray;
+}
+.title {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+.title svg {
+    width: 100px;
+    height: 100px;
+    color: rgb(119, 233, 119);
+}
+
+.stem-cource-container .p1 {
+    margin: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.stem-course {
+    display: flex;
+    margin-left: 20px;
+    overflow: scroll;
+
+}
+.stem-course .c-image1 {
+  width: 30%;
+    
+}
+
+.stem-course .c-image2 {
+  width: 30%;
+    
+}
+.stem-course .c-image3 {
+  width: 30%;
+    
+}
+.stem-course .c-image4 {
+  width: 30%;
+    
+}
+.stem-course .c-image5 {
+  width: 30%;
+    
+}
+
+.c-image1 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 35px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+.c-image2 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 35px;
+    flex-shrink: 0;
+        transition: transform 0.3s ease;
+}
+.c-image3 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 35px;
+    flex-shrink: 0;
+        transition: transform 0.3s ease;
+}
+.c-image4 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 35px;
+    flex-shrink: 0;
+        transition: transform 0.3s ease;
+}
+.c-image5 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 35px;
+    flex-shrink: 0;
+        transition: transform 0.3s ease;
+}
+ .c-image1 .stem-course-detail .stem-c1 {
+    display: flex;
+    /* justify-content: space-around; */
+    padding-bottom: 20px;
+
+}
